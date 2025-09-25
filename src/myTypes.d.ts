@@ -6,6 +6,10 @@ export interface Friend {
     age: number;
     interests? : string[]   
 }
+export interface EmailContact {
+    name: string;
+    email: string
+}
 
 
 export interface Colleague {
